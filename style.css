@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1#output {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 14px;
+    width: 120px;
+    margin-right: 5px;
+}
+
+
+#roll {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#roll:hover {
+    background-color: #45a049;
+}
+
+#minimum {
+    margin-left: 5px;
+}
+
+input#rolls {
+    margin-left: 38px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+aside button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+
+aside button:hover {
+    background-color: #45a049;
+}
